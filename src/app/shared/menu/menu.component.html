@@ -1,11 +1,11 @@
 <ul class="nav justify-content-center bg-dark">
 	<li class="nav-item">
-		<a class="nav-link active" aria-current="page" href="#">FullScreen</a>
+		<a class="nav-link" [routerLink]="[ '/maps/fullscreen' ]" routerLinkActive="text-white">FullScreen</a>
 	</li>
 	<li class="nav-item">
-		<a class="nav-link" href="#">MiniMap</a>
+		<a class="nav-link" [routerLink]="[ '/maps/markers' ]" routerLinkActive="text-white">Markers</a>
 	</li>
 	<li class="nav-item">
-		<a class="nav-link" href="#">Zoom</a>
+		<a class="nav-link" [routerLink]="[ '/maps/zoom' ]" routerLinkActive="text-white">Zoom</a>
 	</li>
 </ul>
